@@ -1,11 +1,11 @@
-# 🍺 [Homebrew](https://brew.sh) Formula for [dotenv-linter](https://github.com/mgrachev/dotenv-linter) ✌️
+# 🍺 [Homebrew](https://brew.sh) Formula for [dotenv-linter](https://github.com/dotenv-linter/dotenv-linter) ⚡️
 
 ## Install for macOS / Linux
 
 To install:
 
 ```shell script
-$ brew install mgrachev/tap/dotenv-linter
+$ brew install dotenv-linter/tap/dotenv-linter
 ```
 
 To upgrade:
