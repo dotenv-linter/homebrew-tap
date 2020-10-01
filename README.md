@@ -5,7 +5,11 @@
 To install:
 
 ```shell script
+# Installs the latest stable release
 $ brew install dotenv-linter/tap/dotenv-linter
+
+# Builds the latest version from the repository
+$ brew install --HEAD dotenv-linter/tap/dotenv-linter
 ```
 
 To upgrade:
