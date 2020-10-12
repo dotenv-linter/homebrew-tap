@@ -6,10 +6,10 @@ class DotenvLinter < Formula
   stable do
     if OS.mac?
       url "https://github.com/dotenv-linter/dotenv-linter/releases/download/v2.2.0/dotenv-linter-darwin-x86_64.tar.gz"
-      sha256 "750606d7404a2d8224c7a8ad047653eabe4995d1cd3edd89310179eebbbedb60"
+      sha256 "ac424e2500de4d691af0e4a997614fc84918e767e4d9261869b8c372e4597590"
     elsif OS.linux?
       url "https://github.com/dotenv-linter/dotenv-linter/releases/download/v2.2.0/dotenv-linter-linux-x86_64.tar.gz"
-      sha256 "26783c3f2e30452e2669c8677561ec46880e2f66eaf75c129db69e4b81e2f9da"
+      sha256 "a65a847a38582664b9901585872a80e71b0b4e077059538bfb351b34874482e7"
     end
   end
 
