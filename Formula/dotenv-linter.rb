@@ -1,15 +1,15 @@
 class DotenvLinter < Formula
   desc "Lightning-fast linter for .env files. Written in Rust."
   homepage "https://github.com/dotenv-linter/dotenv-linter"
-  version "2.2.0"
+  version "2.2.1"
 
   stable do
     if OS.mac?
-      url "https://github.com/dotenv-linter/dotenv-linter/releases/download/v2.2.0/dotenv-linter-darwin-x86_64.tar.gz"
-      sha256 "ac424e2500de4d691af0e4a997614fc84918e767e4d9261869b8c372e4597590"
+      url "https://github.com/dotenv-linter/dotenv-linter/releases/download/v2.2.1/dotenv-linter-darwin-x86_64.tar.gz"
+      sha256 "b06cf1ec07b33c34ebceb7a3ccb8ad9af407803273c924aa4a7a8e2f3e5ca3ee"
     elsif OS.linux?
-      url "https://github.com/dotenv-linter/dotenv-linter/releases/download/v2.2.0/dotenv-linter-linux-x86_64.tar.gz"
-      sha256 "a65a847a38582664b9901585872a80e71b0b4e077059538bfb351b34874482e7"
+      url "https://github.com/dotenv-linter/dotenv-linter/releases/download/v2.2.1/dotenv-linter-linux-x86_64.tar.gz"
+      sha256 "7ff381563ee6a1deaf7e597bde3544a315a98b2cf84e54a7faf2649776b3f6c6"
     end
   end
 
